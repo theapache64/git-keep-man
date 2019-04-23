@@ -18,7 +18,15 @@
 *.tar.gz
 *.rar
 
-out
+
+!out/
+out/*
+!out/artifacts/
+out/artifacts/*
+!out/artifacts/git_keep_man/
+out/artifacts/git_keep_man/*
+!out/artifacts/git_keep_man/git-keep-man.jar
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
